@@ -1,8 +1,11 @@
+#pragma once
 #include <cstdio>
 #include <iostream>
 
 class String{
 public:
+    String();
+    ~String();
     int Length();
     void Add(char* c);
     void Copy(char* c);
@@ -12,7 +15,6 @@ public:
     void Accessor();
     void Mutator();
     void Compare(char* c);
-    void Constructor();
 
 private:
     char* string;
