@@ -13,7 +13,7 @@ public:
     void Remove(char* c);
     void Insert(char* c);
     void Accessor();
-    void Mutator(char* c);
+    void Mutator();
     void Compare(char* c);
 private:
     char* string;
